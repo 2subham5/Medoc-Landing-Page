@@ -25,7 +25,11 @@ function Landing() {
       <Header />
       <Main_Code />
       <Foot_What />
+
       <Form />
+
+
+
       <Footer />
     </div>
   );

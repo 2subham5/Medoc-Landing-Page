@@ -21,7 +21,11 @@ const Intro = () => {
               The single destination for all your healthcare needs.
             </h4>
           </div>
+
           <div className="explore flex m-auto my-8 p-4 rounded-md bg-[#41C1BA]">
+
+          <div className="flex m-auto my-8 p-4 rounded-md bg-[#41C1BA] text-white font-semibold hover:scale-105 transition delay-130 duration-200 ease-in-out">
+
             {" "}
             Explore ecosystem
           </div>
