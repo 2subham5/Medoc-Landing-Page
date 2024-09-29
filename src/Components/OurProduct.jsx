@@ -25,7 +25,7 @@ const OurProduct = () => {
               HOSPITAL+
             </h3>
             <img className="flex max-h-68 w-2/4" src={Product1} alt="" />
-            <div className="flex m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white">
+            <div className="flex m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white hover:scale-105 transition delay-130 duration-200 ease-in-out">
               {" "}
               View more
             </div>
@@ -35,7 +35,7 @@ const OurProduct = () => {
               DOCASSIST
             </h3>
             <img className="flex max-h-68 " src={Product2} alt="" />
-            <div className="flex m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white">
+            <div className="flex m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white hover:scale-105 transition delay-130 duration-200 ease-in-out">
               {" "}
               View more
             </div>
@@ -47,7 +47,7 @@ const OurProduct = () => {
               MEDOC+
             </h3>
             <img className="flex max-h-68 " src={Product3} alt="" />
-            <div className="flex m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white">
+            <div className="flex m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white hover:scale-105 transition delay-130 duration-200 ease-in-out">
               {" "}
               View more
             </div>
@@ -57,7 +57,7 @@ const OurProduct = () => {
               MEDCARD
             </h3>
             <img className="flex max-h-68 " src={Product4} alt="" />
-            <div className="flex m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white">
+            <div className="flex m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white hover:scale-105 transition delay-130 duration-200 ease-in-out">
               {" "}
               View more
             </div>
@@ -67,7 +67,7 @@ const OurProduct = () => {
               MEAPP
             </h3>
             <img className="flex max-h-68 " src={Product5} alt="" />
-            <div className="flex m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white">
+            <div className="flex m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white hover:scale-105 transition delay-130 duration-200 ease-in-out">
               {" "}
               View more
             </div>

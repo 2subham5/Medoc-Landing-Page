@@ -20,9 +20,10 @@ const MedEcosystem = () => {
       <div className="flex w-3/4 md:w-1/2 m-auto justify-between items-center">
         <img src={Ecosystem} alt="" />
       </div>
-      <div className="flex justify-between items-center m-auto my-8 px-7 p-2 rounded-md bg-[#2A4755] text-white">
-        {" "}
-        Book a Demo
+      <div className="flex justify-center items-center m-4 text-white">
+        <button className="w-fit p-2 rounded-md bg-[#2A4755] hover:scale-105 transition delay-130 duration-200 ease-in-out">
+          Book a Demo
+        </button>
       </div>
     </div>
   );

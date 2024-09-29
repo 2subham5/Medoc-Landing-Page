@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMed = () => {
   return (
-    <div className="flex flex-col  w-full  bg-[#2A4755] rounded-3xl mx-auto my-4 p-8 sm:p-20">
+    <div className="flex flex-col  w-full  bg-[#2A4755] rounded-3xl mx-auto sm:w-3/4 my-4 p-8 sm:p-20">
       <h2 className="flex text-white font-bold text-3xl">About MEDOC.</h2>
       <h3 className="flex text-white font-semibold text-sm my-1">
         “At MEDOC Health, we’re reshaping the future of healthcare.{" "}
@@ -16,6 +16,9 @@ const AboutMed = () => {
         faster, and more accessible healthcare for everyone. Join us in driving
         the next wave of health innovation!
       </h4>
+      <button className="flex justify-start items-center w-fit text-black bg-white font-semibold m-4 px-5 p-2 rounded-lg hover:scale-105 transition delay-130 duration-200 ease-in-out">
+        Join Now
+      </button>
     </div>
   );
 };

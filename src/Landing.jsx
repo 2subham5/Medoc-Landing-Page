@@ -10,7 +10,6 @@ import Header from "./Components/What-Do-We-Do/Header";
 import Main_Code from "./Components/What-Do-We-Do/Main_Code";
 import Foot_What from "./Components/What-Do-We-Do/Foot_What";
 
-
 function Landing() {
   return (
     <div className="pt-4 pl-4 pr-4">
@@ -20,13 +19,13 @@ function Landing() {
       <OurProduct />
       <AboutMed />
       <MedEcosystem />
-<Header/>
-<Main_Code/>
-<Foot_What/>
       <Vitals />
+      <Header />
+      <Main_Code />
+      <Foot_What />
+
       <Footer />
     </div>
   );
-
 }
 export default Landing;
