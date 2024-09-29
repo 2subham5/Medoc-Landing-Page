@@ -4,6 +4,7 @@ import hospitalImg2 from "./2.svg";
 import hospitalImg3 from "./3.svg";
 import hospitalImg4 from "./4.svg";
 import hospitalImg5 from "./5.svg";
+import hospitalImg6 from "./6.svg";
 
 
 import './Main_Code.css';
@@ -106,7 +107,7 @@ const Main_Code = () => {
             <div className="container even-card">
                 <div className="image-section">
                     <img
-                        src="src\Components\What-Do-We-Do\6.svg"
+                        src={hospitalImg6}
                         alt="Hospital Illustration"
                        className="max-w-[353px] w-full object-contain"
                     />

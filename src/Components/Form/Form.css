@@ -1,0 +1,94 @@
+/* MedocForm.css */
+
+/* Custom styles for Medoc Registration Form */
+.medoc-form-container {
+    background-color: #f0f9ff;
+     /* Light blue background */
+  }
+  
+  .medoc-form-title {
+    font-family: 'Outfit', sans-serif; /* Apply the Outfit font */
+    font-weight: 600; /* Font weight */
+    font-size: 50px; /* Default font size */
+    line-height: 49px; /* Default line height */
+    color: #FFFFFF; /* Text color */
+    margin-bottom: 16px; /* Margin bottom (1rem) */
+    width: 95%; /* Set width to 95% */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+    .medoc-form-title {
+        font-size: 50px; /* Font size for large screens */
+        line-height: 45px; /* Line height for large screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .medoc-form-title {
+        font-size: 40px; /* Font size for medium screens */
+        line-height: 40px; /* Line height for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .medoc-form-title {
+        font-size: 30px; /* Font size for small screens */
+        line-height: 36px; /* Line height for small screens */
+    }
+}
+
+.medoc-form-para {
+  font-family: 'Outfit', sans-serif; /* Use the Outfit font */
+  font-weight: 400; /* Normal font weight */
+  font-size: 18px; /* Default font size */
+  line-height: 28px; /* Line height for better readability */
+  color: #FFFFFF; /* Text color */
+  margin-bottom: 16px; /* Bottom margin for spacing */
+  width: 95%; /* Set width to 95% */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  .medoc-form-para {
+      font-size: 22px; /* Font size for large screens */
+      line-height: 26px; /* Line height for large screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .medoc-form-para {
+      font-size: 18px; /* Font size for medium screens */
+      line-height: 24px; /* Line height for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .medoc-form-para {
+      font-size: 16px; /* Font size for small screens */
+      line-height: 20px; /* Line height for small screens */
+  }
+}
+.input-font-style{
+  font-family: 'Outfit', sans-serif; /* Use the Outfit font */
+}
+  .medoc-form-button {
+    background-color: #14b8a6; /* Teal color for the button */
+    transition: background-color 0.3s ease;
+  }
+  
+  .medoc-form-button:hover {
+    background-color: #0d9488; /* Darker teal on hover */
+  }
+  .bg-blue-600 {
+    background-color: #2563eb; /* Adjust the blue color as needed */
+  }
+  
+  .bg-teal-500 {
+    background-color: #14b8a6; /* Adjust the teal color as needed */
+  }
+  
+  .bg-teal-500:hover {
+    background-color: #0d9488; /* Darker teal on hover */
+  }
+  /* Add any additional custom styles here */

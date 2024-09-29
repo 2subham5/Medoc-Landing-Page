@@ -1,5 +1,46 @@
 
+
 .custom-footer{
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
 }
+
+.Footer-para {
+    font-family: 'Outfit', sans-serif; /* Apply the Outfit font */
+    font-weight: 400; /* Font weight */
+    font-size: 18px; /* Default font size */
+    line-height: 33.84px; /* Default line height */
+    color: rgba(42, 71, 85, 0.73); /* Text color */
+    margin-bottom: 1.5rem; /* Adjusted margin for spacing */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+    .Footer-para {
+        font-size: 16px; /* Font size for large screens */
+        line-height: 28px; /* Line height for large screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .Footer-para {
+        font-size: 16px; /* Font size for medium screens */
+        line-height: 24px; /* Line height for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .Footer-para {
+        font-size: 14px; /* Font size for small screens */
+        line-height: 20px; /* Line height for small screens */
+    }
+}
+.heading-links{
+    font-family: 'Outfit', sans-serif;
+    color: rgba(42, 71, 85, 0.90);
+}
+.ul-font-style{
+    font-family: 'Outfit', sans-serif;
+    color: rgba(42, 71, 85, 0.73);
+}
+

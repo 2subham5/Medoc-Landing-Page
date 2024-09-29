@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.Heading {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+}
+
+.para {
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}

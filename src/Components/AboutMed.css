@@ -1,0 +1,74 @@
+.Container {
+  background: linear-gradient(
+    85.7deg,
+    rgba(0, 196, 187, 0.9) 7.78%,
+    rgba(32, 72, 87, 0.9) 100.55%
+  );
+  background: linear-gradient(
+    85.7deg,
+    color(display-p3 0.255 0.757 0.729 / 0.9) 7.78%,
+    color(display-p3 0.165 0.278 0.333 / 0.9) 100.55%
+  );
+  max-width: 100%;
+  margin: 0;
+}
+
+/* Base styles for larger screens (desktops, laptops) */
+.Heading1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 52px;
+  }
+  
+  .Text1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38.48px;
+  }
+  
+  .Text2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+  }
+  
+  /* Responsive styles for tablets (screen width 768px and below) */
+  @media (max-width: 768px) {
+    .Heading1 {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  
+    .Text1 {
+      font-size: 22px;
+      line-height: 32px;
+    }
+  
+    .Text2 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  
+  /* Responsive styles for mobile phones (screen width 480px and below) */
+  @media (max-width: 480px) {
+    .Heading1 {
+      font-size: 32px;
+      line-height: 38px;
+    }
+  
+    .Text1 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .Text2 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  

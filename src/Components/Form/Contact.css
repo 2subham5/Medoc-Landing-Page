@@ -1,0 +1,238 @@
+/* General Styles */
+.contactus {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  padding: 3% 15%;
+  background-color: #eeeeee;
+  box-shadow: 5px 5px 5px 5px grey;
+  align-items: center;
+  text-align: center;
+}
+
+/* Headings */
+.contactus h1 {
+  font-size: 3rem;
+}
+
+.contactus p {
+  color: teal;
+  font-size: 1.25rem;
+  border-radius: 50px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .contactus {
+      padding: 5% 10%;
+  }
+
+  .contactus h1 {
+      font-size: 2.5rem;
+  }
+
+  .contactus p {
+      font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactus {
+      padding: 5% 5%;
+  }
+
+  .contactus h1 {
+      font-size: 2rem;
+  }
+
+  .contactus p {
+      font-size: 1rem;
+  }
+}
+
+/* Contact Form Styles */
+.contactform input,
+.contactform textarea {
+  border: solid 1px teal;
+  border-radius: 8px;
+  padding: 1%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Form Row 1 Styles */
+.formrow1 {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.formrow1 input,
+.formrow1 div {
+  width: 48%;
+  height: 5vh;
+  padding: 0 3%;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.formrow1 div {
+  border: 1.5px solid teal;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 3%;
+}
+
+.formrow1 div select {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-left: 2%;
+}
+
+/* Form Row 2 Styles */
+.formrow2 {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 1vh;
+}
+
+.formrow2 input {
+  width: 48%;
+  height: 5vh;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 8px;
+}
+
+.formrow2 div {
+  border: 1.5px solid teal;
+  width: 48%;
+  border-radius: 8px;
+  height: 5vh;
+  background-color: white;
+  padding-left: 3%;
+  display: flex;
+  align-items: center;
+  padding-right: 3%;
+}
+
+
+.formrow2 div select,
+.formrow2 div input {
+  font-size: 16px;
+  border: none;
+  
+}
+.formrow2 .country-code select{
+  width: 43%;
+}
+.formrow2 .country-code input{
+  height: 3vh;
+  
+}
+.formrow4{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.formrow4 input{
+  padding: 1rem;
+}
+
+/* Form Row 3 Styles */
+.formrow3 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.formrow3 input {
+  width: 100%;
+  height: 5vh;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 8px;
+  margin-bottom: 2%;
+}
+
+.formrow3 textarea {
+  width: 100%;
+  height: 20vh;
+  padding-left: 3%;
+  padding-right: 2%;
+  padding-top: 2%;
+  border-radius: 8px;
+  margin-bottom: 2%;
+}
+
+/* Form Button Styles */
+.formbutton {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  border-radius: 8px;
+  background-color: teal;
+  width: 40%;
+}
+
+/* Media Queries for Responsive Form */
+@media (max-width: 768px) {
+  .formrow1 input,
+  .formrow1 div {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  .formrow2 div input{
+    border: none;
+    height: 3vh;
+  }
+  
+  .formrow2 div {
+      width: 100%; /* Ensure full width */
+  }
+  
+  .contactform input,
+  .contactform textarea {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .formrow1 input,
+  .formrow1 div {
+      width: 100%;
+  }
+  .formrow2 div input{
+    border: none;
+  }
+  .formrow2 div {
+      width: 100%; /* Ensure full width */
+  }
+
+  .contactform input,
+  .contactform textarea {
+      font-size: 14px;
+  }
+
+  .formrow1 div select {
+      font-size: 14px;
+  }
+}

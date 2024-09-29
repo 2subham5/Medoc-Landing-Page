@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .nav-item {
     position: relative;
   }
@@ -12,13 +14,22 @@
   }
   .contact-us{
     background-color: #2A4755;
+    color: #FFFFFFE5;  
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;  
   }
   .contact-us:hover{
     background-color: #cbd5e1;
   }
   .download-btn{
     background: #41C1BA14;
-
+    color: #2A4755 !important;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
   }
   .mobile-contact-us{
     background-color: #2A4755;
@@ -34,7 +45,12 @@
     transition: width 0.3s;
   }
   .nav-link {
-    text-decoration: none; /* No underline by default */
+    color: #2A4755;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    text-decoration: none; 
+    font-weight: 400;
+    font-style: normal;
   }
   
   .nav-item:hover::after,

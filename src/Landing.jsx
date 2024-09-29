@@ -5,7 +5,7 @@ import OurProduct from "./Components/OurProduct";
 import AboutMed from "./Components/AboutMed";
 import MedEcosystem from "./Components/MedEcosystem";
 import Vitals from "./Components/Vitals/Vitals";
-
+import Form from "./Components/Form/Form";
 import Header from "./Components/What-Do-We-Do/Header";
 import Main_Code from "./Components/What-Do-We-Do/Main_Code";
 import Foot_What from "./Components/What-Do-We-Do/Foot_What";
@@ -14,8 +14,10 @@ function Landing() {
   return (
     <div className="pt-4 pl-4 pr-4">
       <Navbar />
+      <div >
       <Intro />
-
+      </div>
+     
       <OurProduct />
       <AboutMed />
       <MedEcosystem />
@@ -23,6 +25,10 @@ function Landing() {
       <Header />
       <Main_Code />
       <Foot_What />
+
+      <Form />
+
+
 
       <Footer />
     </div>
